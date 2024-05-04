@@ -1,0 +1,56 @@
+body {
+    background-color: rgb(255, 243, 245);
+}
+
+td img {
+  height: 300px;
+  width: 300px;
+  object-fit: cover;  
+  /* لجعل الصورة تملئ بدون تشويه */
+  border-radius: 900px;
+}
+
+td img:hover {
+    height: 298px;
+    width: 298px;
+    border: 1px solid #e34e85;
+}
+
+img {
+    height: 500px;
+}
+
+table {
+  width: 70%;
+}
+
+td {
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: #e34e85;
+}
+
+a:hover {
+    color: black;
+}
+
+h1 {
+  font-family: "Lugrasimo", cursive;
+  font-weight: 900;
+  font-style: normal;
+  font-size: 3rem;
+}
+
+hr {
+    height: 0;
+    width: 7%;
+    border-width: 20px;
+    border-color: #e34e85;
+    border-style: dotted;
+    border-bottom: none;
+    margin: 100px auto;
+  }
+  
